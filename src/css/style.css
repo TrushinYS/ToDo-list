@@ -1,0 +1,95 @@
+body {
+	background-size: 100%;
+	background-image: url(../pictures/main-fon.jpg);
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.header-text {
+	color: white;
+}
+
+.main * {
+	font-size: 16px;
+	font-family: 'Times New Roman', Times, serif;
+	box-sizing: border-box;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main-input-area {
+	padding: 5px 10px;
+	height: 50px;
+	width: 350px;
+}
+
+.main-input-button {
+	margin-top: 10px;
+	width: 300px;
+	height: 50px;
+	background-color: blue;
+	color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.main-input-button:hover {
+	font-size: 20px;
+	transition: font-size 1s;
+}
+
+.main-input-button:active {
+	background-color: red;
+}
+
+.main-list {
+	margin-top: 20px;
+}
+
+.main-list-item {
+	color: white;
+	border: 1px solid white;
+	max-width: 888px;
+	min-width: 350px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px 0;
+}
+
+.main-list-item-p-chosen {
+	background-color: blue;
+	
+}
+
+.main-list-item-p-completed {
+	text-decoration: line-through;
+
+}
+
+.main-list-item-buttons-chosen {
+	display: flex;
+	margin-top: 10px;
+}
+
+.main-list-item-buttons-btn {
+	height: 30px;
+	width: 150px;
+	margin: 0 20px;
+	cursor: pointer;
+}
